@@ -1,0 +1,33 @@
+.grupo {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.time {
+  margin: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+img {
+  max-width: 100px;
+  width: 100%;
+}
+
+/* Estilo para telas com largura máxima de 768 pixels (exemplo de tamanho de tela móvel) */
+@media (max-width: 768px) {
+  /* Seu estilo para dispositivos móveis aqui */
+  .grupo {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: slategrey;
+  }
+}
